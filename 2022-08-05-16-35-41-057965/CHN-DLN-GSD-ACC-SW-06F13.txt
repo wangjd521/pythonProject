@@ -1,0 +1,6 @@
+interface FastEthernet0/39
+switchport access vlan 31
+no shutdown
+interface FastEthernet0/47
+switchport access vlan 31
+no shutdown

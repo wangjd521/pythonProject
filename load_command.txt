@@ -1,0 +1,6 @@
+devices device CHN-DLN-GSD-ACC-SW-06F02 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F02.txt
+devices device CHN-DLN-GSD-ACC-SW-06F04 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F04.txt
+devices device CHN-DLN-GSD-ACC-SW-06F07 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F07.txt
+devices device CHN-DLN-GSD-ACC-SW-06F13 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F13.txt
+devices device CHN-DLN-GSD-ACC-SW-06F14 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F14.txt
+devices device CHN-DLN-GSD-ACC-SW-06F15 load-native-config file /configuration-template/CHN-DLN-GSD-ACC-SW-06F15.txt
