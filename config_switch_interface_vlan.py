@@ -53,6 +53,7 @@ def generate_configuration(excel_path):
 
 
 def upload_file(host, port, user, passwd, folder_name):
+
     server_connect = paramiko.Transport((host, port))
 
     server_connect.connect(username=user, password=passwd)
@@ -67,5 +68,7 @@ def upload_file(host, port, user, passwd, folder_name):
 
 
 if __name__ == "__main__":
+
     file_name = generate_configuration('./switch_interface_vlan_mapping_template.xlsx')
+
     upload_file("58.2.216.212", 22, "root", "19870424", file_name)
